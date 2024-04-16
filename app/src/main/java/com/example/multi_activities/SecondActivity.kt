@@ -21,7 +21,7 @@ class SecondActivity : AppCompatActivity() {
         val jobValue = findViewById<TextView>(R.id.jobValue)
         val companyValue = findViewById<TextView>(R.id.companyValue)
 
-        nameValue.text = "Nom : $name"
+        nameValue.text = "Name: $name"
         jobValue.text = "Job: $job"
         companyValue.text = "Company: $company"
 
